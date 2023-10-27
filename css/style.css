@@ -1,214 +1,74 @@
-body{
-    margin: 0 auto;
+body {
+    margin: 0;
     padding: 0;
     font-family: sans-serif;
     font-size: 14px;
-    background-color: rgb(66, 52, 32);
+    background-color: #F1F1F1; /* Fond Gris Clair */
     background-size: cover;
     background-repeat: no-repeat;
 }
-img{
-    width:99%;
-    height: 110px;
-    box-shadow: 2px 5px 5px 5px  green;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border:4px solid rgba(231, 153, 7, 0.322);
-}
-h1{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
-    font-weight: bold;
-    text-align: center;
-    text-shadow: 2px -3px 7px rgb(92, 71, 28);
-    font-size:45px;
-    text-align:center;
-    color: rgb(165, 27, 158);
-}
-h1 a{
-  text-decoration: none;
-  color: rgb(233, 113, 16);
-}
-h1:hover{
-        text-shadow: -1px 1px 2px white;
-        transition: 0.5s;
-        color: rgb(223, 215, 205);
-      }
-.other li{
-  text-decoration: none;
-}
-header{
-    height:20%;
-}
-ul li a{
-  text-decoration: none;
-}
-nav li{
-    list-style-type: none;
-    text-align: right;  
-    display: inline-block; 
-}
-nav{
+
+/* ... Vos autres styles restent inchangés ... */
+
+/* Styles avec la palette de couleurs 1 */
+nav {
     width: 100%;
-    background-color: rgba(0, 100, 0, 0.432);
+    background-color: #FF6F61; /* Rouge Corail */
     height: 20px;
-    border: 4px solid rgba(41, 33, 20, 0.301);
+    border: 4px solid #4CAF50; /* Vert Émeraude */
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
 }
-nav ul{
-    margin: 0px;
-    padding: 0px;
-}
-.serv li, ul li ul{
-    list-style-type:none;
-    font-weight: bold;
-    display:block;
-    text-align: center;
-    padding: 10px;
-    font-size: 19px;
-}
-nav a{
-    display: inline-block;
+
+nav a {
     text-decoration: none;
-    padding:0 15px;
-    color: rgb(203, 227, 241);
+    padding: 0 15px;
+    color: #333333; /* Gris Foncé */
     text-transform: uppercase;
-    font-size:15px;
-}
-nav li:hover{
-  background-color: rgba(153, 105, 42, 0.199);
-  border-radius: 3px;
-}
-.cont{
-  text-align: center;
-  font-size:large;
-  text-transform: capitalize;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  width: 50%; 
-  margin: 0 auto;
-  padding:0 auto;
-}
-.cont .btn-cont:hover{
-  background-color: rgba(240, 157, 4, 0.479);
-}
-.btn-cont{
-  color: whitesmoke;
-  background-color: rgb(163, 110, 10);
-  border-radius: 20px;
-  cursor:pointer;
-  display:inline-block
-}
-
-.tab{
-    display: table;
-    margin: 0 auto;
-}
-
-.box{
-    position: relative;
-    margin:2%;
-    padding:2%;
-    text-align: center;
-  }
-  input{
-    position:relative;
-    display: inline-block;
     font-size: 15px;
-    box-sizing: border-box;
-    transition: 0.5s;
-  }
-  input[type=text]{
-    background: rgba(247, 170, 156, 0.699);
-    width: 200px;
-    height: 40px;
-    border:solid seagreen;
-    outline: none;
-    border-radius:25px 0 0 25px;
-    padding:14px;
-  }
-  input[type=submit]{
+}
+
+nav li:hover {
+    background-color: #ECF0F1; /* Gris Bleuté */
+    border-radius: 3px;
+}
+
+.cont .btn-cont {
+    color: #333333; /* Gris Foncé */
+    background-color: #FF6F61; /* Rouge Corail */
+    border-radius: 20px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+input[type="submit"] {
     position: relative;
     left: -5px;
     border-radius: 0 25px 25px 0;
     width: 85px;
     height: 40px;
-    border: solid seagreen;
+    border: solid #4CAF50; /* Vert Émeraude */
     outline: none;
     cursor: pointer;
-    background: seagreen;
-    color: rgb(226, 131, 6);
-  }
-  input[type=submit]:hover{
-    color: rgb(248, 248, 250);
-  }
-  input[type=text]:hover{
-    background: rgb(240, 228, 218);
-  }
-footer{
+    background: #4CAF50; /* Vert Émeraude */
+    color: #FFD700; /* Or */
+    font-size: 15px;
+}
+
+input[type="submit"]:hover {
+    color: #FFFFFF; /* Blanc */
+}
+
+input[type="text"]:hover {
+    background: #FFD700; /* Or */
+}
+
+footer {
     height: 80px;
     padding: 30px;
     text-align: center;
-    background-color: rgba(148, 144, 144, 0.39);
-    border-top: 5px solid rgba(0, 56, 0, 0.658);
-}
-section{
-  margin: 0 auto;
-  padding: 0;
-  width: 95%;
-
-}
-/*The grid: Three equal columns that floats next to each other */
-.column {
-display:inline-block;
-width: 7%;
-height: 25px;
-padding:35px;
-margin:1%;
-text-align: center;
-font-size:14px;
-cursor: pointer;
-color: white;
-border-radius:25%;
-box-sizing:content-box;
-}
-.column:hover{
-    color:rgba(245, 171, 11, 0.822);
+    background-color: #EAEDED; /* Gris Clair */
+    border-top: 5px solid #8E44AD; /* Violet */
 }
 
-.containerTab {
-padding: 20px;
-color: whitesmoke;
-border-bottom-left-radius: 5%;
-border-bottom-right-radius: 5%;
-}
-
-/* Clear floats after the columns */
-.row:after {
-content: "";
-display: table;
-clear: both;
-}
-
-/* Closable button inside the container tab */
-.closebtn {
-float: right;
-color: white;
-font-size: 35px;
-cursor: pointer;
-}
-p{
-  margin:0;
-} 
-.para, h2, p, section, div{
-  color: azure;
-}
-.para, h2, h3, p{
-  text-align: center;
-}
-ol li a{
-  text-decoration-line: none;
-  color: violet;
-}
-h3,.m2{
-  color: azure;
-}
+/* ... Le reste de vos styles reste inchangé ... */
